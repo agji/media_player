@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+
+.html5_mediaplayer{
+	background:#222;
+}
+.video{
+    -webkit-transform: scaleX(1); 
+  -moz-transform: scaleX(1);
+
+}
+.controller{
+}
+.timeline{
+	background: #444;
+	cursor:pointer;
+	/* radius */
+	-webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; 
+}
+.progress{
+	background: #bbb;
+	/* radius */
+	-webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; 
+}
+.time_tracker{
+	background:#aaa ;
+	cursor:pointer;
+	/* radius */
+	-webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; 
+}
+.time_tracker:hover{
+	opacity: 0.6;
+}
+.button{
+	opacity: 0.5;
+	background: #fff;
+	background-position: center center;
+	background-repeat:no-repeat;
+	/* radius */
+	-webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; 
+}
+.button:hover{
+	opacity: 0.7;
+}
+.play{
+	background-image: url(images/play.png);
+}
+.pause{
+	background-image: url(images/pause.png);
+}
+.forward{
+	background-image: url(images/forward.png);
+}
+.backward{
+	background-image: url(images/backward.png);
+}
+.prev{
+	background-image: url(images/prev.png);
+}
+.next{
+	background-image: url(images/next.png);
+}
+.begin_tracker{
+	background:#090;
+	cursor:pointer;
+	opacity: 0.7;
+	/* radius */
+	-webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; 
+}
+.end_tracker{
+	background:#900;
+	cursor:pointer;
+	opacity: 0.7;
+	/* radius */
+	-webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; 
+}
+.time_label{
+	color:#aaa;
+	font-size:9px;
+	font-family:Arial, Helvetica, sans-serif;
+	/* radius */
+	-webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; 
+}
+table,tbody,th,tr,td{
+	border-collapse:collapse;
+	border: none;
+}
+.time_hint{
+	padding: 5px;
+	border: 2px solid #FFF;
+	opacity: 0.8;
+	background:#000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#FFF;
+	/* radius */
+	-webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; 
+}
+.video_loader{
+    background-image: url('images/loader.gif');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
